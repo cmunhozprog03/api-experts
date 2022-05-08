@@ -24,6 +24,7 @@ return new class extends Migration
             $table->integer('property_area');
             $table->integer('total_property_area');
             $table->string('slug');
+
             $table->timestamps();
         });
     }
